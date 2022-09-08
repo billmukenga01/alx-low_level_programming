@@ -4,6 +4,7 @@
 *main - Entry point
 *Return always 0
 */
+
 int main(void)
 {
     printf("Size of a char: %zu byte(s)\n", sizeof(char));
@@ -12,5 +13,4 @@ int main(void)
     printf("Size of a char: %zu byte(s)\n", sizeof(long long int));
     printf("Size of a char: %zu byte(s)\n", sizeof(float));
     return (0);
-
 }
